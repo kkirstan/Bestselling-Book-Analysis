@@ -2,7 +2,7 @@
 
 # Data Extraction
 
-The jupyter notebook used for data extraction can be found in [Data_Collection_Cleaning/Books](Data_Collection_Cleaning/Books).
+The jupyter notebook used for data extraction can be found in [Data_Collection_Cleaning/Books](Data_Collection_Cleaning/Books.ipynb).
 
 For this project we collected data on bestselling books using a few different approaches to data collection. One method we used was pandas in jupyter notebook to read in website HTML tables and CSVs. We also used BeautifulSoup to scrape webpages for html scripts, which were then queried for specific data tags to extract the desired data.
 
