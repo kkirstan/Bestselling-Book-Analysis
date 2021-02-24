@@ -1,4 +1,4 @@
-iDROP TABLE wiki_scrape;
+DROP TABLE wiki_scrape;
 
 CREATE TABLE wiki_scrape(
 rank INT,
