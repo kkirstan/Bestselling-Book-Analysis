@@ -1,6 +1,9 @@
 # ETL_Project
 
 # Data Extraction
+
+The jupyter notebook used for data extraction can be found in [Data_Collection_Cleaning/Books](Data_Collection_Cleaning/Books).
+
 For this project we collected data on bestselling books using a few different approaches to data collection. One method we used was pandas in jupyter notebook to read in website HTML tables and CSVs. We also used BeautifulSoup to scrape webpages for html scripts, which were then queried for specific data tags to extract the desired data.
 
 Websites we used for data extraction include:
@@ -18,6 +21,8 @@ Websites we used for data extraction include:
       We gathered this data from Kaggle as an existing dataset. This dataset can be found in [Resources/bestsellers.csv](Resources/bestsellers.csv).
 
 # Data Transformation
+
+The jupyter notebook used for data transformation can be found in [Data_Collection_Cleaning/Books](Data_Collection_Cleaning/Books).
 
 1. Barnes & Noble Bestselling Books
 
