@@ -5,17 +5,17 @@ For this project we collected data on bestselling books using a few different ap
 
 Websites we used for data extraction include:
 
-[Barnes & Noble Top 100 Bestselling Books](https://www.barnesandnoble.com/b/books/_/N-1fZ29Z8q8?Nrpp=20&page=) 
+1. [Barnes & Noble Top 100 Bestselling Books](https://www.barnesandnoble.com/b/books/_/N-1fZ29Z8q8?Nrpp=20&page=) 
 
-  To extract this data we used BeautifulSoup to scrape each listing and return rank, title, author, and publication date. The csv for this dataset can be found in [Resources/bn.csv](Resources/bn.csv).
+      To extract this data we used BeautifulSoup to scrape each listing and return rank, title, author, and publication date. The csv for this dataset can be found in [Resources/bn.csv](Resources/bn.csv).
     
-[Wikipedia List of Bestselling Books](https://en.wikipedia.org/wiki/List_of_best-selling_books)
+2. [Wikipedia List of Bestselling Books](https://en.wikipedia.org/wiki/List_of_best-selling_books)
 
-  To extract this data we used pandas.read_html to collect data from html tables within the website, returning rank, book, author, original language, date of first publication, and approximate sales. This dataset can be found in [Resources/wiki_scrape.csv](Resources/wiki_scrape).
+      To extract this data we used pandas.read_html to collect data from html tables within the website, returning rank, book, author, original language, date of first publication, and approximate sales. This dataset can be found in [Resources/wiki_scrape.csv](Resources/wiki_scrape).
     
-[Kaggle Dataset - Amazon Top 100 Bestselling Books of All Time](https://www.kaggle.com/ricardomendozavillar/amazon-top-100-bestselling-books-1995-2020)
+3. [Kaggle Dataset - Amazon Top 100 Bestselling Books of All Time](https://www.kaggle.com/ricardomendozavillar/amazon-top-100-bestselling-books-1995-2020)
 
-  We gathered this data from Kaggle as an existing dataset. This dataset can be found in [Resources/bestsellers.csv](Resources/bestsellers.csv).
+      We gathered this data from Kaggle as an existing dataset. This dataset can be found in [Resources/bestsellers.csv](Resources/bestsellers.csv).
 
 # Data Transformation
 
