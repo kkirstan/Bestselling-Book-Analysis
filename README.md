@@ -11,7 +11,7 @@ Websites we used for data extraction include:
     
 [Wikipedia List of Bestselling Books](https://en.wikipedia.org/wiki/List_of_best-selling_books)
 
-  To extract this data we used pandas.read_html to collect data from each table on the site, which we then converted into a pandas dataframe. This dataset can be found in [Resources/wiki_scrape.csv](Resources/wiki_scrape).
+  To extract this data we used pandas.read_html to collect data from html tables within the website, returning rank, book, author, original language, date of first publication, and approximate sales. This dataset can be found in [Resources/wiki_scrape.csv](Resources/wiki_scrape).
     
 [Kaggle Dataset - Amazon Top 100 Bestselling Books of All Time](https://www.kaggle.com/ricardomendozavillar/amazon-top-100-bestselling-books-1995-2020)
 
