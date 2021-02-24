@@ -1,4 +1,4 @@
-DROP TABLE wiki_scrape;
+iDROP TABLE wiki_scrape;
 
 CREATE TABLE wiki_scrape(
 rank INT,
@@ -11,26 +11,6 @@ approximate_sales VARCHAR
 
 SELECT *
 FROM wiki_scrape;
-
-DROP TABLE bestsellers;
-
-CREATE TABLE bestsellers(
-name VARCHAR PRIMARY KEY,
-author VARCHAR,
-rating VARCHAR,
-reviews INT,
-type VARCHAR,
-price VARCHAR,
-year INT
-);
-
-SELECT *
-FROM bestsellers;
-
-SELECT wiki_scrape.rank, wiki_scrape.book, wiki_scrape.author, wiki_scrape.first_published, wiki_scrape.approximate_sales, bestsellers.rating, bestsellers.reviews, bestsellers.price, bestsellers.year
-FROM wiki_scrape
-INNER JOIN bestsellers
-ON wiki_scrape.book=bestsellers.name;
 
 DROP TABLE bn_bs;
 
