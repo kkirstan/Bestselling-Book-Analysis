@@ -24,11 +24,6 @@ pub_date VARCHAR
 SELECT *
 FROM bn_bs;
 
-SELECT bn_bs.rank, bn_bs.title, bn_bs.author, bestsellers.rating, bestsellers.reviews, bestsellers.type, bestsellers.price, bestsellers.year
-FROM bestsellers
-INNER JOIN bn_bs
-ON bestsellers.name=bn_bs.title;
-
 DROP TABLE bestsellers_two;
 
 CREATE TABLE bestsellers_two(
@@ -43,6 +38,11 @@ year INT
 
 SELECT *
 FROM bestsellers_two;
+
+SELECT bn_bs.rank, bn_bs.title, bn_bs.author, bestsellers_two.rating, bestsellers_two.reviews, bestsellers_two.type, bestsellers_two.price, bestsellers_two.year
+FROM bestsellers_two
+INNER JOIN bn_bs
+ON bestsellers_two.name=bn_bs.title;
 
 SELECT wiki_scrape.rank, wiki_scrape.book, wiki_scrape.author, wiki_scrape.first_published, wiki_scrape.approximate_sales, bestsellers_two.rating, bestsellers_two.reviews, bestsellers_two.price, bestsellers_two.year
 FROM wiki_scrape
