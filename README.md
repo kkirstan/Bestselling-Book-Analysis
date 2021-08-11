@@ -1,5 +1,13 @@
 # Extract, Transform, Load - Bestselling Book Analysis
 
+# Technology Used
+- Python
+- Pandas
+- NumPy
+- BeautifulSoup
+- SQL and SQLAlchemy
+- Jupyter Notebook
+
 # Data Extraction
 
 The jupyter notebook used for data extraction can be found in [Data_Collection_Cleaning/Books](Data_Collection_Cleaning/Books.ipynb).
